@@ -14,8 +14,9 @@ Dificuldade:
     facil
 |#
 
+;;; A funcao EUCLIDES aceita dois argumentos e e' recursiva.
+
 (defun euclides (a b)
-  "A funcao EUCLIDES aceita dois parametros e e' recursiva."
   (if (/= b 0)
       (euclides b (mod a b))
       a))

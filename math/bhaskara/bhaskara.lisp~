@@ -22,7 +22,5 @@ Dificuldade:
   (list (/ (- delta b) (* a 2))
 	      (/ (- (+ delta b)) (* a 2))))
 (defun bhaskara (a b c)
-  "A funcao BHASKARA e' um \"frontend\" para as funcoes DELTA-CALC
-  e ACHAR-RAIZES."
   (unless (< (delta-calc a b c) 0)
     (achar-raizes a b (delta-calc a b c))))
