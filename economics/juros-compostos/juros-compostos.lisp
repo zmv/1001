@@ -19,6 +19,9 @@ Dificulade:
 ;;;; e nao porcentagens.
 
 (defun juros-compostos-continuos (capital juros tempo)
+<<<<<<< HEAD
   "A funcao JUROS-COMPOSTOS-CONTINUOS calcula o retorno de um emprestimo
   a juros continuos."
+=======
+>>>>>>> 62710a111e226a41df12bb70083ba34062e6f92e
   (* capital (exp (* juros tempo))))
