@@ -2,9 +2,14 @@
 Encontrando números Pares
 Autor:
     ???
+<<<<<<< HEAD
 Colaboradores:
     Filipe Saraiva (filip.saraiva@gmail.com)
     Pedro Arthur Duarte (pedroarthur.jedi@gmail.com)
+=======
+Colaborador:
+    Filipe Saraiva (filip.saraiva@gmail.com)
+>>>>>>> 62685b8a1c73dc16416f6dd5eb70c3c8623ddfe7
 Tipo:
     math
 Descrição:
@@ -51,6 +56,7 @@ void numerosPares(int num){
   printf("\n");
 }
 
+<<<<<<< HEAD
 /* Via aritimética binária (maneira convencional) */
 void numerosPares_2(int num) {
   int contador;
@@ -60,6 +66,8 @@ void numerosPares_2(int num) {
       printf("%d ", contador);
 }
 
+=======
+>>>>>>> 62685b8a1c73dc16416f6dd5eb70c3c8623ddfe7
 // Função main
 int main(){
   
