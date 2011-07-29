@@ -37,11 +37,28 @@ char *token(int tamanho)
 
 int main(void)
 {
+  char *token;
   srand(time(NULL)); // Regenerando a tabela de numeros aleatorios.
-  printf("Token com tamanho 5 = %s\n",token(5));
-  printf("Token com tamanho 10 = %s\n",token(10));
-  printf("Token com tamanho 20 = %s\n",token(20));
-  printf("Token com tamanho 50 = %s\n",token(50));
-  printf("Token com tamanho 1000 = %s\n",token(1000));
+
+  token=token(5);
+  printf("Token com tamanho 5 = %s\n",*token);
+  free(token);
+
+  token=token(10);
+  printf("Token com tamanho 10 = %s\n",*token);
+  free(token);
+
+  token=token(20);
+  printf("Token com tamanho 20 = %s\n",*token);
+  free(token);
+
+  token=token(50);
+  printf("Token com tamanho 50 = %s\n",*token);
+  free(token);
+
+  token=token(1000);
+  printf("Token com tamanho 1000 = %s\n",*token);
+  free(token);
+
   return(0);
 }
