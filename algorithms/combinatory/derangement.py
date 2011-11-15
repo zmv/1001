@@ -31,4 +31,5 @@ n = 5
 d = 0
 for i in range(0, n):
     d = d + ((-1) ** i / fatorial(i))
+    print fatorial(i),d
 print fatorial(n) * d
